@@ -27,6 +27,6 @@ Grab the latest version of **Listify** here:
 
 | Home | Lists | Add Item |
 | :--: | :---: | :------: |
-| <img src="assets/home1.jpg" alt="Home Screen" width="200"/> | <img src="assets/home2.jpg" alt="Lists Screen" width="200"/> | <img src="assets/add.jpg" alt="Add Screen" width="200"/> |
+| <img src="asset/home.jpg" alt="Home Screen" width="200"/> | <img src="asset/delete.jpg" alt="Lists Screen" width="200"/> | <img src="asset/add.jpg" alt="Add Screen" width="200"/> |
 
 > *Listify — simple, smart, and made for your everyday lists.*  
