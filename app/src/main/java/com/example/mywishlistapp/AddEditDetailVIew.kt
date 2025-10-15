@@ -39,8 +39,6 @@ import androidx.compose.material.rememberScaffoldState
 import androidx.compose.material.ScaffoldState
 import androidx.compose.runtime.collectAsState
 
-
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AddEditDetailView(
     id: Long,
@@ -58,7 +56,7 @@ fun AddEditDetailView(
 
     if(id!=0L){
         val wish = viewModel.getAWishById(id).collectAsState(initial = Wish(0L,"",""))
-        viewModel.wishTitleState = wish.value.
+        viewModel.wishTitleState = wish.value.toString()
     }
 
     Scaffold(
